@@ -1,0 +1,63 @@
+.episode-card {
+  display: flex;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  height: 100%;
+  min-height: 160px;
+}
+
+.episode-card:hover {
+  transform: translateY(-4px);
+}
+
+.episode-img {
+  width: 140px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.episode-content {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.episode-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.episode-code,
+.episode-air-date,
+.episode-url {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin: 0.3rem 0;
+  word-break: break-word;
+}
+
+.vote-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 0.8rem;
+}
+
+.vote-buttons button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.vote-buttons button:hover {
+  background-color: #666;
+}
