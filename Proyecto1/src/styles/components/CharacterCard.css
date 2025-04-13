@@ -1,0 +1,74 @@
+.character-wellness-card {
+  background-color: #f3f2f1;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-wellness-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.character-wellness-info {
+  flex: 1;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.wellness-title {
+  font-size: 1.4rem;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.wellness-description {
+  font-size: 0.7rem;
+  color: #444;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.wellness-buttons {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.wellness-button {
+  padding: 0.6rem 1.5rem;
+  background-color: #f3f2f1;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.wellness-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.wellness-image {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}

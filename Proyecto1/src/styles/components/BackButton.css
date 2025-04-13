@@ -1,0 +1,11 @@
+.hero-back {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.hero-back:hover {
+  color: #00ffae;
+}

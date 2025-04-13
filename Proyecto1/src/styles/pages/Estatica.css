@@ -1,0 +1,253 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.estatica-container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #222;
+  min-height: 100vh;
+}
+
+.hero-section {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.hero-image {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  width: 50%;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem;
+}
+
+.hero-back {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.content-section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.content-section p,
+.content-section ul {
+  margin-top: 2rem;
+  color: #868686;
+}
+
+.content-image {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 2rem auto 1rem;
+  object-fit: cover;
+  height: 300px;
+}
+
+.share-section {
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+  padding: 2rem 1rem;
+}
+
+.share-section hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+.share-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.share-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.share-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.share-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.share-icons img:hover {
+  transform: scale(1.2);
+}
+
+
+.footer-section {
+  background-color: #f6f5f3;
+  padding: 5rem 2rem 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  overflow-x: hidden;
+  margin-top: 4rem;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+  margin-top: 8rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h4 {
+  font-size: .8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+.subscribe-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem 1.2rem;
+  margin-top: 1rem;
+}
+
+.subscribe-form input,
+.subscribe-form select {
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  border: 1px solid #cccccc8c;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+.subscribe-form .form-checkbox {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
+}
+
+.subscribe-form .form-checkbox a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.subscribe-form button {
+  grid-column: span 2;
+  padding: .8rem;
+  font-weight: 200;
+  font-size: 1rem;
+  border: 1px solid #33333375;
+  background-color: #f6f5f3;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #333;
+  max-width: 30%;
+  height: 50px;
+}
+
+.subscribe-form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-bottom-icons {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+.footer-bottom-icons img {
+  width: 22px;
+  height: 22px;
+}
+
+.logo-divider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-top: 3rem;
+  margin-bottom: -9rem;
+  z-index: 2;
+  position: relative;
+}
+
+.footer-logo-divider {
+  width: 500px; 
+  height: auto;
+  padding: 1rem;
+  border-radius: 12px;
+  z-index: 3;
+}

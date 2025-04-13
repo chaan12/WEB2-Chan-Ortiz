@@ -39,13 +39,21 @@ export default function EpisodeCard({ episode }) {
   }, [episode.characters]);
 
   return (
-    <div className="episode-card">
-      {image && <img className="episode-img" src={image} alt={episode.name} />}
+  <div className="episode-card">
+    {image && (
+      <img
+      className="episode-img" src={image} alt={episode.name}
+      onClick={() => navigate(`/episode/${episode.id}`)} 
+      style={{ cursor: 'pointer' }}
+      />
+      )}
+      
       <div className="episode-content" onClick={() => navigate(`/episode/${episode.id}`)}>
         <h3>{episode.name}</h3>
         <p className="episode-code">{episode.episode}</p>
         <p className="episode-air-date">📅 {episode.air_date}</p>
         <p className="episode-url">🔗 {episode.url}</p>
+
         <div className="vote-buttons" onClick={(e) => e.stopPropagation()}>
           <button onClick={() => dispatch({ type: 'LIKE' })}>👍 {state.likes}</button>
           <button onClick={() => dispatch({ type: 'DISLIKE' })}>👎 {state.dislikes}</button>
