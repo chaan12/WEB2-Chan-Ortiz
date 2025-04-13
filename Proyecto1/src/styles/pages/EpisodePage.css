@@ -19,7 +19,7 @@
   font-size: 5rem;
   letter-spacing: 3px;
   padding-top: 2rem; 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 200;
   text-transform: uppercase;
   margin-bottom: 4rem;
@@ -39,7 +39,7 @@
   color: #686868;
   max-width: 900px;
   margin: 0 auto 3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .favorites-section-label {
@@ -165,8 +165,6 @@
   gap: 2rem;
   padding: 2rem;
 }
-
-
 
 
 .no-favorites {

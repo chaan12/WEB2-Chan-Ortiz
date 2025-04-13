@@ -5,11 +5,12 @@
     "img info"
     "episodes info"
     "location info";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   gap: 1.5rem;
   padding: 3rem;
   background-color: #d9effa;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(93, 93, 93);
 }
 
 .card-image-top {
@@ -20,11 +21,12 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  max-height: 400px;
 }
 
 .image-block {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
   background-color: #00aaff;
 }
@@ -35,7 +37,7 @@
 }
 
 .text-block .line {
-  height: 1rem;
+  height: 2rem;
   background-color: #e0f7ff;
   border-radius: 6px;
   margin-bottom: 0.7rem;
@@ -83,32 +85,37 @@
   background-color: #fff;
   border: 2px solid #000;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .card-full .square {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   background-color: #3a99ff;
   border-radius: 6px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-full .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .card-full .content .line {
   background-color: #e0f7ff;
   border-radius: 6px;
   padding: 0.5rem 1rem;
-  margin-bottom: 0.6rem;
   font-weight: 500;
 }
 
 .card-full .footer-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .card-full .footer-buttons .button {
