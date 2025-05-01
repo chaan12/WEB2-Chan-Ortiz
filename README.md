@@ -15,6 +15,9 @@
 ### Iniciar proyecto
 >Ya dentro de la carpeta correspondiente, incia con npm start
 
+### Cambiar de proyecto
+>Cuando termine de checar un proyecto, lo cierra, sale de la carpeta y ya cambia de rama con git checkout (nombre de rama) y ya repite el proceso
+
 
 >[!NOTE]
 >#### PROYECTO 1
