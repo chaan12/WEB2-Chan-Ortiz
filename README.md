@@ -12,6 +12,9 @@
 ### Instalar dependencias (opcional)
 >En mi caso cada vez que cambiaba de proyecto debia de hacer un npm install
 
+### Iniciar proyecto
+>Ya dentro de la carpeta correspondiente, incia con npm start
+
 
 >[!NOTE]
 >#### PROYECTO 1
