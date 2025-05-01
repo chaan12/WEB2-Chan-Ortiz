@@ -2,7 +2,7 @@
 >[!IMPORTANT]
 >Cada rama es un proyecto distinto
 
-### Primero hay que bajar la rama remota con:
+>[!TIP] Primero hay que bajar la rama remota con:
 >git checkout -b proyecto1 origin/proyecto1
 >git checkout -b proyecto2 origin/proyecto2
 
